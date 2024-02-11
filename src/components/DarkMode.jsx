@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import "../assets/css/darkmode.css";
 
 export default function DarkMode() {
   const [darkMode, setDarkMode] = useState(false);

@@ -2,6 +2,11 @@
 
 ##### Implementación en ReactJS para alternar entre modos claro y oscuro, permitiendo a los usuarios personalizar la apariencia de la aplicación según sus preferencias lumínicas. Se utilizarán estados globales, componentes dinámicos y gestión de estilos CSS para lograr la funcionalidad deseada.
 
+#### Para correr el proyecto, solo basta ejecutar `npm install`
+
+    Esto instalar todas las dependencias del proyecto, luego solo queda ejecutar el proyecto con
+    `npm run dev`
+
 #### Resultado final
 
 ![](https://raw.githubusercontent.com/urian121/imagenes-proyectos-github/master/Cambiar-de-modo-Claro-Oscuro-en-ReactJS.png)
