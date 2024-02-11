@@ -1,15 +1,11 @@
 import DarkMode from "./components/DarkMode";
-import ModoOscuroToggle from "./components/ModoOscuro";
-import "./App.css";
+import "./assets/css/darkmode.css";
 
 function App() {
   return (
     <>
-      <h3>Modo Dark Mode</h3>
+      <h1>Cambiar de modo Claro/Oscuro en ReactJS</h1>
       <DarkMode />
-      <hr />
-      <br />
-      <ModoOscuroToggle />
     </>
   );
 }

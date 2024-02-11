@@ -17,10 +17,10 @@ export default function DarkMode() {
   };
 
   return (
-    <header>
-      <div id="toggle" onClick={toggleDarkMode}>
-        <div className="toggle-inner" />
-      </div>
-    </header>
+    <div id="toggle" className="toggle" onClick={toggleDarkMode}>
+      <div className="toggle-inner" />
+      <input type="checkbox" />
+      <label></label>
+    </div>
   );
 }
